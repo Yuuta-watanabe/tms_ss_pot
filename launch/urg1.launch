@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="tms_ss_pot" type="change_nan" name="change_nan1">
+      <remap from="/most_intense" to="/hsrb/base_scan"/>
+      <remap from="/LaserTracker" to="/LaserTracker1"/>
+    </node>
+</launch>
